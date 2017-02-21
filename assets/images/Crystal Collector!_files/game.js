@@ -26,13 +26,13 @@ $(document).ready(function(){
 		var winOrLose = function(){
 			if (numberTotal >= randNumberBig) {
 				if (numberTotal == randNumberBig){
-					alert("Cowabunga Dude! You nailed it!");
+					alert("wow you guessed it and the function runs");
 					wins++;
 					$("#wins").html("Wins: "+ wins);
 					$("#start-button").html("Play Again?");
 					return;
 				} else if (numberTotal > randNumberBig) {
-					alert("Oh major wipeout bro!");
+					alert("You Lost");
 					losses++;
 					$("#losses").html("Losses: "+ losses);
 					$("#start-button").html("Play Again?");
